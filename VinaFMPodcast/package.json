@@ -3,5 +3,11 @@
     "version": "1.0.0",
     "private": true,
     "dependencies": {
+        "cordova-plugin-splashscreen": "^4.0.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-splashscreen": {}
+        }
     }
 }
