@@ -3,5 +3,21 @@
     "version": "1.0.0",
     "private": true,
     "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-ios": "4.2.0",
+        "cordova-plugin-splashscreen": "^4.0.3",
+        "cordova-plugin-whitelist": "^1.2.2",
+        "cordova-windows": "4.4.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android",
+            "ios",
+            "windows"
+        ]
     }
 }
